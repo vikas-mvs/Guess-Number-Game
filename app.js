@@ -85,9 +85,6 @@ function changeColor(card) {
 
     // Card select hone par
     card.classList.add("active-card");
-
-    clickSound.currentTime = 0;
-    clickSound.play();
     
     // Ab wahi pehle se save kiya hua number dikhega aur add hoga
     card.innerText = points;
