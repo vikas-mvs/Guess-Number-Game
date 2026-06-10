@@ -18,8 +18,6 @@ const warningSound = new Audio("warning.mp3");
 function playGame() {
     if (coins < 10) {
         resultText.innerText = "❌ Not enough coins!";
-        alertSound.currentTime = 0;
-        alertSound.play();
         return;
     }
 
